@@ -2,6 +2,8 @@ import React from 'react';
 
 import data from '../../assets/jsons/text.json'
 
+import Nav from '../Nav/Nav';
+
 import './Header.css';
 
 
@@ -13,6 +15,7 @@ function Header() {
                     <div className='headerIcon'> &lt; &#47; &gt;</div>
                     <div className='headerName'>{data.name} </div>
                 </div>
+                <Nav/>
             </div>
 
             <div className='hr'></div>
