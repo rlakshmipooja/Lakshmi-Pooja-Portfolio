@@ -1,5 +1,5 @@
 import React from 'react'
-import {  Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import './Nav.css'
 
@@ -7,10 +7,10 @@ function Nav() {
     return (
         <nav>
             <div className='navContainer'>
-                <Link to="/">Home</Link>
-                <Link to="/education">Education</Link>
-                <Link to="/experience">Experience</Link>
-                <Link to="/about">About</Link>
+                <NavLink  className={({ isActive }) => isActive ? "tab active" : "tab"} to="/"  >Home</NavLink>
+                <NavLink  className={({ isActive }) => isActive ? "tab active" : "tab"} to="/education" >Education</NavLink>
+                <NavLink  className={({ isActive }) => isActive ? "tab active" : "tab"} to="/experience" >Experience</NavLink>
+                <NavLink  className={({ isActive }) => isActive ? "tab active" : "tab"} to="/about" >About</NavLink>
             </div>
         </nav>
     )

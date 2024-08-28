@@ -1,4 +1,17 @@
 .navContainer{
     display: flex;
     flex-direction: row;
+    gap: 2vw;
+}
+
+.tab{
+    color: white;
+    font-size: 18px; 
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.tab.active{
+    color: #16cbb3;
+    font-weight: 900;
 }
