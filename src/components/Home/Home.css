@@ -11,11 +11,15 @@
 .innerContainer {
     display: flex;
     justify-content: space-between;
+    margin-top: 3vh;
 }
 
 .leftContainer {
-    width: 20vw;
+    width: 250px;
     margin-left: 2vw;
+    border: 5px solid white;
+    border-radius: 40% 0;
+    padding: 30px;
 
     .name {
         color: white;

@@ -1,5 +1,6 @@
 .resumeDownloadContainer{
-    margin: 20px 0;
+    margin: 20px auto;
+    width: fit-content;
 
     .resumeDownloadAnchor{
         text-decoration: none;
@@ -10,7 +11,7 @@
             border-radius: 40px;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 8px;
             padding: 8px;
         }
     }
