@@ -3,6 +3,7 @@
     "designation": "Frontend Developer",
     "email": "rlakshmipooja@gmail.com",
     "city": "Coimbatore",
+    "workType": "Fulltime",
     "skills": ["HTML", "CSS", "Javascript", "Typescript", "ReactJS", "Angular", "NodeJS", "PostgreSQL"],
     "tag": "< />"
 }

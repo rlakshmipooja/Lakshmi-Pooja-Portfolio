@@ -1,0 +1,17 @@
+.resumeDownloadContainer{
+    margin: 20px 0;
+
+    .resumeDownloadAnchor{
+        text-decoration: none;
+        
+        .resumeDownloadButton{
+            height: 40px;
+            border: none;
+            border-radius: 40px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px;
+        }
+    }
+}

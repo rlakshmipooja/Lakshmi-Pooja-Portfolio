@@ -1,4 +1,7 @@
 import React from 'react';
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
+import WorkOutlineOutlinedIcon from '@mui/icons-material/WorkOutlineOutlined';
 
 import data from '../../assets/jsons/text.json'
 
@@ -13,16 +16,28 @@ function Home() {
             <div className='designation'>{data.designation}</div>
             <div className='innerContainer'>
                 <div className='leftContainer'>
-                    <div>{data.name}</div>
-                    <div>{data.designation}</div>
-                    <div>{data.email}</div>
-                    <div>{data.city}</div>
+                    <div className='name'>{data.name}</div>
+                    <div className='designation'>{data.designation}</div>
+                    <div>
+                        <div className='detailsContainer'>
+                            <EmailOutlinedIcon className='detailsIcon'/>
+                            <div className='details'>{data.email}</div>
+                        </div>
+                        <div className='detailsContainer'>
+                            <LocationOnOutlinedIcon className='detailsIcon'/>
+                            <div className='details'>{data.city}</div>
+                        </div>
+                        <div className='detailsContainer'>
+                            <WorkOutlineOutlinedIcon className='detailsIcon'/>
+                            <div className='details'>{data.workType}</div>
+                        </div>
+                    </div>
                     <div className='skills'>
                         {skills.map((skill, index) => {
-                            return <div key={index}>{skill}</div>
+                            return <div className='skillCard' key={index}>{skill}</div>
                         })}
                     </div>
-                    <Resume/>
+                    <Resume />
                 </div>
                 <div>Center</div>
                 <div>Right</div>

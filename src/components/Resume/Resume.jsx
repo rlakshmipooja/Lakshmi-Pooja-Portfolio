@@ -1,13 +1,21 @@
 import React from 'react';
+import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
+
+import './Resume.css'
 
 function Resume() {
-      
+
     return (
-        <a href='/files/resume.pdf' download >
-            <button>
-                Download Resume
-            </button>
-        </a>
+        <div className='resumeDownloadContainer'>
+            <a href='/files/resume.pdf' download className='resumeDownloadAnchor'>
+                <button className='resumeDownloadButton'>
+                    <span>
+                        Download Resume
+                    </span>
+                    <FileDownloadOutlinedIcon />
+                </button>
+            </a>
+        </div>
     )
 }
 
