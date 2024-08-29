@@ -1,0 +1,22 @@
+.homeContainer{
+    padding: 20px;
+}
+
+.designation{
+    color: #98faec;
+    font-size: 50px;
+}
+
+.innerContainer{
+    display: flex;
+}
+
+.leftContainer{
+    border: 2px solid black;
+    width: 30vw;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}

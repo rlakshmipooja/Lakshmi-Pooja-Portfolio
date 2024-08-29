@@ -12,7 +12,7 @@ function Header() {
         <div className='container'>
             <div className='top'>
                 <div className='headerLeft'>
-                    <div className='headerIcon'> &lt; &#47; &gt;</div>
+                    <div className='headerIcon'> {data.tag}</div>
                     <div className='headerName'>{data.name} </div>
                 </div>
                 <Nav/>

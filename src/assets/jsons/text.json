@@ -1,3 +1,8 @@
 {
-    "name": "Lakshmi Pooja Ramesh"
+    "name": "Lakshmi Pooja Ramesh",
+    "designation": "Frontend Developer",
+    "email": "rlakshmipooja@gmail.com",
+    "city": "Coimbatore",
+    "skills": ["HTML", "CSS", "Javascript", "Typescript", "ReactJS", "Angular", "NodeJS", "PostgreSQL"],
+    "tag": "< />"
 }
