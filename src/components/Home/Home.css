@@ -4,8 +4,8 @@
 
 .designation {
     color: #98faec;
-    font-size: 50px;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
 }
 
 .innerContainer {
@@ -15,11 +15,11 @@
 }
 
 .leftContainer {
-    width: 250px;
-    margin-left: 2vw;
     border: 5px solid white;
     border-radius: 40% 0;
+    margin-left: 2vw;
     padding: 30px;
+    width: 250px;
 
     .name {
         color: white;
@@ -28,10 +28,10 @@
     }
 
     .designation {
+        color: #85888c;
         font-family: 'Courier New', Courier, monospace;
         font-size: medium;
         padding-bottom: 10px;
-        color: #85888c;
     }
 
     .detailsContainer {
@@ -43,9 +43,9 @@
         }
 
         .details {
-            padding: 3px 0px;
             color: #85888c;
             font-size: 14px;
+            padding: 3px 0px;
         }
     }
 }
@@ -58,8 +58,8 @@
 
     .skillCard{
         background-color: #12f7d6;
-        font-size: 11px;
         border-radius: 10px;
+        font-size: 11px;
         padding: 4px 6px;
     }
 }
