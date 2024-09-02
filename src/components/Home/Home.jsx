@@ -39,7 +39,16 @@ function Home() {
                     </div>
                     <Resume />
                 </div>
-                <div>Center</div>
+                <div className='centerContainer'>
+                    <div>{data.h1OpeningTag}</div>
+                    <div>Hey </div>
+                    <div>I'm {data.name} </div>
+                    <div>{data.designation}</div>
+                    <div>{data.h1ClosingTag}</div>
+                    <div>{data.pOpeningTag}</div>
+                    <div>{data.professionalSummary}</div>
+                    <div>{data.pClosingTag}</div>
+                </div>
                 <div>Right</div>
             </div>
         </div>

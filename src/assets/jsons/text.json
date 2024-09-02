@@ -1,9 +1,23 @@
 {
     "name": "Lakshmi Pooja Ramesh",
-    "designation": "Frontend Developer",
+    "designation": "Front-End Developer",
     "email": "rlakshmipooja@gmail.com",
     "city": "Coimbatore",
     "workType": "Fulltime",
-    "skills": ["HTML", "CSS", "Javascript", "Typescript", "ReactJS", "Angular", "NodeJS", "PostgreSQL"],
-    "tag": "< />"
+    "skills": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Typescript",
+        "ReactJS",
+        "Angular",
+        "NodeJS",
+        "PostgreSQL"
+    ],
+    "tag": "< />",
+    "professionalSummary": "3 years of experience in turning design concepts into functional, user-friendly interfaces. I specialize in building responsive and visually appealing web applications that resonate with users. With a keen eye for detail and a deep understanding of modern web technologies, I bridge the gap between design and technology, ensuring every pixel serves a purpose. My work is driven by a love for clean code, seamless user experiences, and the belief that the best digital products are those that feel effortless to use.",
+    "h1OpeningTag": "<h1>",
+    "h1ClosingTag": "<h1 />",
+    "pOpeningTag": "<p>",
+    "pClosingTag": "<p />"
 }

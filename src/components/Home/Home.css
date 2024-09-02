@@ -12,43 +12,51 @@
     display: flex;
     justify-content: space-between;
     margin-top: 3vh;
-}
 
-.leftContainer {
-    border: 5px solid white;
-    border-radius: 40% 0;
-    margin-left: 2vw;
-    padding: 30px;
-    width: 250px;
-
-    .name {
-        color: white;
-        font-size: 20px;
-        padding: 20px 0px 0px;
-    }
-
-    .designation {
-        color: #85888c;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: medium;
-        padding-bottom: 10px;
-    }
-
-    .detailsContainer {
-        display: flex;
-        gap: 10px;
-
-        .detailsIcon{
-            color: #1c9588;
+    .leftContainer {
+        border: 5px solid white;
+        border-radius: 40% 0;
+        margin-left: 2vw;
+        padding: 30px;
+        width: 250px;
+    
+        .name {
+            color: white;
+            font-size: 20px;
+            padding: 20px 0px 0px;
         }
-
-        .details {
+    
+        .designation {
             color: #85888c;
-            font-size: 14px;
-            padding: 3px 0px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: medium;
+            padding-bottom: 10px;
+        }
+    
+        .detailsContainer {
+            display: flex;
+            gap: 10px;
+    
+            .detailsIcon{
+                color: #1c9588;
+            }
+    
+            .details {
+                color: #85888c;
+                font-size: 14px;
+                padding: 3px 0px;
+            }
         }
     }
+
+    .centerContainer{
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
 }
+
 
 .skills {
     display: flex;
